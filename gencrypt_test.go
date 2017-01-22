@@ -111,8 +111,8 @@ func TestGencrypt(t *testing.T) {
 	}
 }
 
-// TestDataSize tests to make sure the data is larger the the aes.Blocksize (16
-// bytes). If the data were smaller we wouldn't know if the GCM was working
+// TestDataSize tests to make sure the data is larger than the aes.Blocksize
+// (16 bytes). If the data were smaller we wouldn't know if the GCM was working
 // properly as it encrypts streams of data in 16-byte blocks.
 func TestDataSize(t *testing.T) {
 	if len(data) < aes.BlockSize {
