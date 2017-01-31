@@ -56,7 +56,7 @@ func NewGCM(key []byte) (*Galois, error) {
 	// 128-bit block cipher (cipher.Block) used for encrypting and decrypting
 	// data in individual blocks. The mode implementations (e.g. Galois Counter
 	// Mode) extend that capability to streams of blocks.
-	block, err := aes.NewCipher(key[:])
+	block, err := aes.NewCipher(key)
 	if err != nil {
 		return nil, err
 	}
