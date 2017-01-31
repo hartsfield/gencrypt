@@ -58,14 +58,14 @@ func NewGCM(key []byte) (*Galois, error) {
 	// Mode) extend that capability to streams of blocks.
 	block, err := aes.NewCipher(key[:])
 	if err != nil {
-		return g, err
+		return nil, err
 	}
 
 	// We pass the cipher.Block to cipher.NewGCM() to retrieve a new GCM (Galois
 	// Counter Mode).
 	g.GCM, err = cipher.NewGCM(block)
 	if err != nil {
-		return g, err
+		return nil, err
 	}
 
 	// We return the Galois struct containing the GCM so that it can be used for
