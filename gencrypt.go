@@ -1,6 +1,6 @@
 // Package gencrypt is a package to further ease the use of encryption with the
 // Go programming language.
-// Copyright (C) 2017 J. Hartzfeldt
+// Copyright (C) 2017 J. Hartsfield
 
 // This program is free software; you can redistribute it and/or modify it
 // under the terms of the GNU General Public License as published by the Free

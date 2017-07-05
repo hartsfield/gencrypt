@@ -14,7 +14,7 @@ package main
 import (
   "fmt"
 
-  "gitlab.com/zfeldt/gencrypt"
+  "gitlab.com/hartsfield/gencrypt"
 )
 
 // NOTE: Error checking not handled in this example but should be in

@@ -1,6 +1,6 @@
 // gencrypt is a package to further ease the use of encryption with the Go
 // programming language.
-// Copyright (C) 2017 J. Hartzfeldt
+// Copyright (C) 2017 J. Hartsfield
 
 // This program is free software; you can redistribute it and/or modify it
 // under the terms of the GNU General Public License as published by the Free
@@ -25,8 +25,8 @@ import (
 	"strings"
 	"testing"
 
-	"gitlab.com/sigma7/slicerip"
-	"gitlab.com/zfeldt/gencrypt"
+	"gitlab.com/hartsfield/gencrypt"
+	"gitlab.com/hartsfield/slicerip"
 )
 
 // NOTE: Encryption can be tricky and it's important to run a few visual tests
